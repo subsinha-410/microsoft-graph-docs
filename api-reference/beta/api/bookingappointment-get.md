@@ -96,6 +96,7 @@ Content-type: application/json
     "priceType": "fixedPrice",
     "price": 10,
     "serviceNotes": "Customer requires punctual service.",
+    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!"
     "optOutOfCustomerEmail": false,
     "staffMemberIds": [],
     "invoiceAmount": 10,
