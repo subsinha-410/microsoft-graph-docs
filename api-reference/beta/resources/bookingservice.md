@@ -28,6 +28,7 @@ Represents information about a particular service provided by a [bookingBusiness
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|additionalInformation|String|Additional Information that [bookingService](bookingservice.md) wants to send to [bookingCustomer](bookingcustomer.md).The [bookingCustomer](bookingcustomer.md) will see this content in the email confirmation they receive.
 |defaultDuration|Duration|The default length of the service, represented in numbers of days, hours, minutes, and seconds. For example, P11D23H59M59.999999999999S. |
 |defaultLocation|[location](location.md)|The default physical location for the service.|
 |defaultPrice|Double|The default monetary price for the service.|
@@ -62,6 +63,7 @@ The following is a JSON representation of the resource.
 
 ```json
 {
+  "additionalInformation": "String",
   "defaultDuration": "String (timestamp)",
   "defaultLocation": {"@odata.type": "microsoft.graph.location"},
   "defaultPrice": 1024,
