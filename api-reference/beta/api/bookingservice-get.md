@@ -87,6 +87,7 @@ Content-type: application/json
     "description": "Individual bento box lunch delivery",
     "isHiddenFromCustomers": false,
     "notes": "Home-cooked special",
+    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "preBuffer": "PT5M",
     "postBuffer": "PT10M",
     "staffMemberIds": [],
