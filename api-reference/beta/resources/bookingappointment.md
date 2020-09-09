@@ -30,6 +30,7 @@ Represents a customer appointment for a [bookingService](bookingservice.md), per
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|additionalInformation|String|Additional Information that [bookingService](bookingservice.md) wants to send to [bookingCustomer](bookingcustomer.md).The [bookingCustomer](bookingcustomer.md) will see this content in the email confirmation they receive.
 |customerEmailAddress|String|The SMTP address of the [bookingCustomer](bookingcustomer.md) who is booking the appointment.|
 |customerId|String|The ID of the [bookingCustomer](bookingcustomer.md) for this appointment. If no ID is specified when an appointment is created, then a new **bookingCustomer** object is created. Once set, you should consider the **customerId** immutable.|
 |customerLocation|[location](location.md)|Represents location information for the [bookingCustomer](bookingcustomer.md) who is booking the appointment.|
