@@ -57,6 +57,7 @@ In the request body, supply the values for relevant fields that should be update
 |id|String| Read-only.|
 |isHiddenFromCustomers|Boolean|True means this service is not available to customers for booking.|
 |notes|String|Additional information about this service.|
+|additionalInformation|String|Additional Information that bookingService wants to send to bookingCustomer.The bookingCustomer will see this content in the email confirmation they receive.
 |postBuffer|Duration|The time to buffer after an appointment for this service ends, and before the next customer appointment can be booked.|
 |preBuffer|Duration|The time to buffer before an appointment for this service can start.|
 |schedulingPolicy|[bookingSchedulingPolicy](../resources/bookingschedulingpolicy.md)|The set of policies that determine how appointments for this type of service should be created and managed.|
