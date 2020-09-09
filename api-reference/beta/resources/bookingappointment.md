@@ -77,6 +77,7 @@ The following is a JSON representation of the resource.
 
 ```json
 {
+  "additionalInformation": "String",
   "customerEmailAddress": "String",
   "customerId": "String",
   "customerLocation": {"@odata.type": "microsoft.graph.location"},
