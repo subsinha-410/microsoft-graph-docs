@@ -56,6 +56,7 @@ Content-type: application/json
 
 {
     "@odata.type":"#microsoft.graph.bookingAppointment",
+    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "customerEmailAddress":"jordanm@contoso.com",
     "customerLocation":{
         "@odata.type":"#microsoft.graph.location",
@@ -154,7 +155,6 @@ Content-type: application/json
     },
     "serviceName":"Catered bento",
     "serviceNotes":"Customer requires punctual service.",
-    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "start":{
         "@odata.type":"#microsoft.graph.dateTimeTimeZone",
         "dateTime":"2018-05-01T12:00:00.0000000+00:00",
@@ -192,6 +192,7 @@ Content-type: application/json
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#bookingBusinesses('Contosolunchdelivery%40M365B489948.onmicrosoft.com')/appointments/$entity",
     "id": "AAMkADc7zF4J0AAA8v_KnAAA=",
     "selfServiceAppointmentId": "00000000-0000-0000-0000-000000000000",
+    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "customerId": "7ed53fa5-9ef2-4f2f-975b-27447440bc09",
     "customerName": "Jordan Miller",
     "customerEmailAddress": "jordanm@contoso.com",
@@ -205,7 +206,6 @@ Content-type: application/json
     "priceType": "fixedPrice",
     "price": 10,
     "serviceNotes": "Customer requires punctual service.",
-    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "optOutOfCustomerEmail": false,
     "staffMemberIds": [],
     "invoiceAmount": 10,
