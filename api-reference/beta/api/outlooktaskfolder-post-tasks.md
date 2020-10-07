@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: apiPageType
 ---
 
-# Create outlookTask
+# Create outlookTask (deprecated)
 
 Namespace: microsoft.graph
 
@@ -135,3 +135,5 @@ Content-length: 376
   "suppressions": []
 }
 -->
+
+

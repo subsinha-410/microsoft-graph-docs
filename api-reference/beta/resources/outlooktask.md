@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: resourcePageType
 ---
 
-# outlookTask resource type
+# outlookTask resource type (deprecated)
 
 Namespace: microsoft.graph
 
@@ -136,3 +136,5 @@ Here is a JSON representation of the resource.
   "suppressions": []
 }
 -->
+
+

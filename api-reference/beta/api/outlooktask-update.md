@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: apiPageType
 ---
 
-# Update outlooktask
+# Update outlooktask (deprecated)
 
 Namespace: microsoft.graph
 
@@ -179,3 +179,5 @@ Content-length: 376
   ]
 }
 -->
+
+

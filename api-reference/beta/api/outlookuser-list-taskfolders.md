@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: apiPageType
 ---
 
-# List taskFolders
+# List taskFolders (deprecated)
 
 Namespace: microsoft.graph
 
@@ -119,3 +119,5 @@ Content-length: 200
   ]
 }
 -->
+
+

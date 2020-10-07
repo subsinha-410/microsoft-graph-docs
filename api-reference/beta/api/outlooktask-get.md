@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: apiPageType
 ---
 
-# Get outlookTask
+# Get outlookTask (deprecated)
 
 Namespace: microsoft.graph
 
@@ -235,3 +235,5 @@ Content-type: application/json
   ]
 }
 -->
+
+

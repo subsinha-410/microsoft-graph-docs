@@ -7,7 +7,7 @@ ms.prod: "outlook"
 doc_type: apiPageType
 ---
 
-# List taskGroups
+# List taskGroups (deprecated)
 
 Namespace: microsoft.graph
 
@@ -121,3 +121,5 @@ Content-length: 187
   ]
 }
 -->
+
+
