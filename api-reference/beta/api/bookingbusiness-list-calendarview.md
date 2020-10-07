@@ -100,6 +100,7 @@ Content-type: application/json
         {
             "id": "AAMkADKpAAA=",
             "selfServiceAppointmentId": "00000000-0000-0000-0000-000000000000",
+            "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
             "customerId": "80b5ddda-1e3b-4c9d-abe2-d606cc075e2e",
             "customerName": "Adele Vance",
             "customerEmailAddress": "adelev@proseware.com",
@@ -113,7 +114,6 @@ Content-type: application/json
             "priceType": "fixedPrice",
             "price": 10,
             "serviceNotes": null,
-            "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
             "optOutOfCustomerEmail": false,
             "staffMemberIds": [],
             "invoiceAmount": 10,
