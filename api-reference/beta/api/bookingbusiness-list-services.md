@@ -90,7 +90,7 @@ Content-type: application/json
             "description": "Not sure how to choose? Let us introduce you to our traditional family recipes.",
             "isHiddenFromCustomers": false,
             "notes": "This is where you can add notes about this service that only you and your staff see.",
-            "additionalInformation": "The Additional Information that this service wants to send to customers",
+            "additionalInformation": "",
             "preBuffer": "PT0S",
             "postBuffer": "PT0S",
             "staffMemberIds": [],
