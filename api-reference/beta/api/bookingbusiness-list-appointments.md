@@ -86,6 +86,7 @@ Content-type: application/json
         {
             "id": "AAMkADKoAAA=",
             "selfServiceAppointmentId": "00000000-0000-0000-0000-000000000000",
+            "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
             "customerId": "829e3cb5-3d4d-4319-a8de-1953aedaa166",
             "customerName": "Bob Kelly",
             "customerEmailAddress": "bobk@tailspintoys.com",
@@ -99,7 +100,6 @@ Content-type: application/json
             "priceType": "fixedPrice",
             "price": 10,
             "serviceNotes": null,
-            "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
             "optOutOfCustomerEmail": false,
             "staffMemberIds": [],
             "invoiceAmount": 10,
