@@ -56,6 +56,7 @@ Content-type: application/json
 
 {
     "@odata.type":"#microsoft.graph.bookingService",
+    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "defaultDuration":"PT1H30M",
     "defaultLocation":{
         "@odata.type":"#microsoft.graph.location",
@@ -97,7 +98,6 @@ Content-type: application/json
     "displayName":"Bento",
     "isHiddenFromCustomers":false,
     "notes":"Home-cooked special",
-    "additionalInformation": "Guaranteed lunch delivery in one hour between 12-3 PM !!!",
     "postBuffer":"PT10M",
     "preBuffer":"PT5M",
     "schedulingPolicy":{
